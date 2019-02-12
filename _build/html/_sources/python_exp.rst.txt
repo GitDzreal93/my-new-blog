@@ -1,7 +1,7 @@
 第一章 Python 经验汇总
 ======================
 
-1.1 常用的第三方库
+1.1 常用的库
 ---------------------
 
 标准库
@@ -15,7 +15,6 @@
 #. threading 多线程
 #. multiprocessing 多进程
 #. asyncio 异步io
-#. gevent 协程
 #. re 正则
 #. collections 数据结构
 #. abc 抽象类
@@ -40,9 +39,89 @@
 #. 2to3 自动将python2转为python3
 #. pdb debug调试
 #. dis 字节码反编译
+#. shutil 文件操作
+#. PIL 图片处理
 
+协程（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. gevent 协程
 
+网络（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. requests 处理网络请求
+#. urllib2 url
+#. aiohttp 异步http
+#. beautifulsoup 处理html
+#. lxml 处理类xml格式
 
+自动化（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. uiautomator2 python版uiautomator
+#. appium appium UI自动化框架
+
+文件操作（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. jsonpath json的xpath表示
+#. xlrd excel读
+#. xlwt excel写
+#. xlsxwriter excel写（推荐）
+
+web开发（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. django 后端服务
+#. flask 轻量级后端服务
+#. uwsgi web服务器，支持WSGI、uwsgi、http等协议
+#. tornado 非阻塞式服务器
+#. djangorestframework RESTful API
+#. xadmin xadmin后台
+#. elasticsearch 搜索引擎
+
+devops（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. ansible
+#. fabric
+#. docker
+
+数据库（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. PyMySQL
+#. mysqlclient
+#. sqlalchemy
+#. PyMongo
+#. kafka-python
+#. redis
+
+图像处理（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. opencv-python opencv的python库
+#. image 图片处理
+#. qrcode 二维码处理
+
+爬虫（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. scrapy
+
+数据分析（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. numpy 数据矩阵
+#. pandas 处理表格数据
+#. matplotlib 数据可视化
+#. seaborn 数据可视化
+#. pyecharts 生成Echarts图表
+
+数据分析（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. tensorflow
+#. scikit-learn
+
+GUI编程（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. pyqt4
+#. wxpython
+
+游戏编程（第三方库）
+^^^^^^^^^^^^^^^^^^^^^
+#. pygame
 
 
 1.2 数据结构及操作
